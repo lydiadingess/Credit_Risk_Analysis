@@ -12,11 +12,15 @@ The results for the six machine learning models including their respective balan
 
 ### Naive Random Oversampling
 
+![image](https://user-images.githubusercontent.com/107373721/202053260-d4c63f60-fd9e-4b73-84fb-d09749a03c3c.png)
+
 1. Balanced Accuracy: 0.6366972052004142
 2. Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 3. Recall: High/Low risk = .62/.65
 
 ###  SMOTE Oversampling
+
+![image](https://user-images.githubusercontent.com/107373721/202053299-b41d74b9-b90b-4218-83bd-c55e9d559323.png)
 
 1. Balanced Accuracy: 0.6302712208564487
 2. Precision: The precision is low for High-risk loans and is high for Low-risk loans.
@@ -24,11 +28,15 @@ The results for the six machine learning models including their respective balan
 
 ### Undersampling
 
+![image](https://user-images.githubusercontent.com/107373721/202053339-68a3dec4-3384-4b4b-bf59-0640494c4521.png)
+
 1. Balanced Accuracy: 0.6302712208564487
 2. Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 3. Recall: High/Low risk = .61/.45
 
 ### Combination Under-Over Sampling
+
+![image](https://user-images.githubusercontent.com/107373721/202053379-d7408ff7-c490-4f3e-9ee6-7913bf5dea0a.png)
 
 1. Balanced Accuracy: 0.5292734810302525
 2. Precision: The precision is low for High-risk loans and is high for Low-risk loans.
@@ -36,11 +44,15 @@ The results for the six machine learning models including their respective balan
 
 ### Balanced Random Forest Classifier
 
+![image](https://user-images.githubusercontent.com/107373721/202053403-b17c0d14-4b5f-4f20-817c-9be9bd05c059.png)
+
 1. Balanced Accuracy: 0.7885466545953005
 2. Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 3. Recall: High/Low risk = .70/.87
 
 ### Easy Ensemble AdaBoost Classifier
+
+![image](https://user-images.githubusercontent.com/107373721/202053438-022d9de4-85e8-4a6b-be3c-ecda1b102fe6.png)
 
 1. Balanced Accuracy: 0.9316600714093861
 2. Precision: The precision is low for High-risk loans and is high for Low-risk loans.
